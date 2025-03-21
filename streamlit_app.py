@@ -1,14 +1,7 @@
 
 import streamlit as st
-import streamlit as st
 import pandas as pd
 import plotly.express as px 
-
-# Check if a password has been entered
-if st.secrets["Jordan25"] != st.secrets["password_input"]:
-    st.warning("Incorrect password. Please try again.")
-    st.stop()
-
 
 
 #Sidebar
@@ -17,6 +10,8 @@ if st.secrets["Jordan25"] != st.secrets["password_input"]:
 page = st.sidebar.selectbox("Select a page", ['Home', "Data Overview", "EDA","Final Thoughts"])
 
 #Display Pages
+
+
 
 if page == "Home":
     st.title("📊 Starbucks Data Analysis Project")
