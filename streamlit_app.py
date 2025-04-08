@@ -85,4 +85,6 @@ if password == "Jordan25":
         st.write("This analysis provided insight into one of the most popular coffee shops in the wolrd, Starbucks. In the analysis we looked at key data points located in the '.csv' file which included beverage category, calories, and other relvant nutrional facts. Throughout the analysis, it became clear why Starbucks drinks are so popular. Starbuck's menu is versatile and has yummy, sweet, caffeinated, or uncaffeinated options, which makes it a good choice for everyone. In the EDA, I created visuals of how different beverages compared by calories, total fat, and caffeine levels. As a consistent Starbucks customer, I found these categories matter most the consumer because people want a drink that not only taste good, but is good for them. Overall, cool topic for an analysis. I hope you all enjoyed this. Feel free to DM me on Disco if you have any questions.")
         st.image('./photo_2.jpg')
 
+    
+
 
